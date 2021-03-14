@@ -1,13 +1,18 @@
-.home_wapper {
-  min-height: 70vh;
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
-.left_home_content {
+/* .home_wapper {
   min-height: 70vh;
+} */
+.left_home_content {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
   justify-content: center;
+ 
 }
 .left_home_content h1 {
   color: #ff3366;
@@ -16,7 +21,7 @@
   font-weight: 700;
 }
 .left_home_content div {
-  margin-top: 20px;
+  margin-top: 16px;
   font-size: 30px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.637);
@@ -24,60 +29,43 @@
 .right_home_contnet {
   display: flex;
   text-align: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
 }
-/* .left_home_content {
-  width: 30%;
+ul {
+  list-style: none;
 }
-.right_home_contnet {
-  width: 40%;
-}
-.home_wapper {
-  min-height: 70vh;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-}
-.left_home_content h1 {
-  color: #ff3366;
-  font-size: 80px;
-  line-height: 85px;
-}
-.left_home_content div {
-  margin-top: -20px;
-  font-size: 30px;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.637);
-} */
-.hexa,
-.hexa div {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
-}
-.hexa {
-  width: 325px;
-  height: 230px;
-}
-.hexa div {
+.hexagon_wrapper{
+  position: relative;
   width: 100%;
+  min-height: 100%;
+  margin-left: 50px;
   height: 100%;
+  margin-top: 40px;
+  margin-bottom: 490px;
 }
-.hexa {
-  transform: rotate(120deg);
+.hexagon_wrapper img{
+  width: 200px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
-.hex1 {
-  transform: rotate(-60deg);
+.hexa1{
+    position: absolute;
+    top:0px;
+    z-index: 1;
 }
-.hex2 {
-  transform: rotate(-60deg);
+.hexa2{
+  position: absolute;
+  left: 220px;
 }
-.part {
-  transform: rotate(90deg);
+.hexa3{
+  top:190px;
+  left: 110px;
+  position: absolute;
 }
-.part img {
-  transform: rotate(270deg);
+
+@media only screen and (min-width:1100px){
+  .hexagon_wrapper{
+    margin-left: 150px;
+  }
 }

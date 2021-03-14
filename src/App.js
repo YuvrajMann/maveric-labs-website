@@ -6,7 +6,7 @@ import { Router, Switch, Route, BrowserRouter } from "react-router-dom";
 import MainComponent from "./Components/MainComponet/MainComponent";
 import history from "./history";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Footer from "../src/Components/Footer/Footer";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -45,6 +45,7 @@ class App extends Component {
           >
             <MainComponent></MainComponent>
           </div>
+          <Footer></Footer>
         </div>
       </Router>
     );

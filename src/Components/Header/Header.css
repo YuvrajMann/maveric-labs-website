@@ -5,12 +5,14 @@
   align-items: center;
   background-color: white;
   border-bottom: 1px solid #c0c0c0;
-
+  padding-top: 10px;
   /* position: fixed;
   overflow: hidden;
   top: 0; /* Position the navbar at the top of the page */
 }
 .main_header_stiky {
+  padding-top: 10px;
+  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

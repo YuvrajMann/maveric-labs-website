@@ -1,0 +1,60 @@
+.main_footer{
+    /* position: absolute; */
+    margin-top: 200px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.027);
+    height: 345px;
+    color: black;
+    border-top: 2px solid rgba(0, 0, 0, 0.185);
+    padding-top: 30px;
+}
+.main_footer h1{
+    font-weight: 600;
+    font-size: 36px;
+}
+#copyright{
+    margin-top: 55px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    padding-left: 0px;
+    margin-bottom: -20px;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.button{
+    background-color: rgba(0, 0, 0, 0.918);
+    margin-left: 14px;
+    text-align: center;
+    padding:10px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+.button:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.918);
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 92%);
+}
+#footer_buttons{
+    margin-top: 30px;
+   
+}
+#footer_links{
+    display: flex;
+    flex-direction: column;
+}
+#footer_links a{
+    margin-top: 8px;
+}
+.seprator{
+    width: 2px;
+   height: 100%;
+    background-color: rgba(0, 0, 0, 0.432);
+    margin-top: -30px;
+ 
+}
