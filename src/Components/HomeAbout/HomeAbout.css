@@ -2,10 +2,12 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  scroll-behavior: smooth;
 }
-/* .home_wapper {
-  min-height: 70vh;
-} */
+.home_wapper {
+  overflow-x:hidden;
+  overflow-y: hidden;
+}
 .left_home_content {
   display: flex;
   flex-direction: column;
@@ -45,8 +47,37 @@ ul {
   margin-top: 40px;
   margin-bottom: 490px;
 }
+.hexagon2warpper{
+  text-align: center;
+  margin-top: 10%;
+
+}
+.hexagon_vison_wrapper{
+  text-align: center;
+  margin-top: 10%;
+}
+.hex6 img{
+  width: 320px;
+  height: 320px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.hex7 img{
+
+  width: 240px;
+  height: 240px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.hex7 {
+  position: absolute;
+  top: 320px;
+}
 .hexagon_wrapper img{
   width: 200px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.hexa4 img{
+  width: 300px;
+  height: 320px;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 .hexa1{
@@ -63,9 +94,49 @@ ul {
   left: 110px;
   position: absolute;
 }
+.hexa5{
+  width: 200px;
+  height: 220px;
+  position: absolute;
+  left: 380px;
+  top:340px;
+  background-position: center center;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
 
 @media only screen and (min-width:1100px){
   .hexagon_wrapper{
     margin-left: 150px;
   }
+}
+.right_vison_content{
+  margin-top: 100px;
+}
+.right_vison_content h1{
+  color: #ff3366;
+  font-size: 80px;
+  line-height: 85px;
+  font-weight: 700;
+}
+.right_vison_content div {
+  margin-top: 16px;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.637);
+}
+.left_vison_content{
+  margin-top: 45px;
+  height: 570px;
+}
+.expertise_header{
+  text-align: center;
+  
+}
+.expertise_header h1{
+  color: #ff3366;
+  font-size: 80px;
+  line-height: 85px;
+  font-weight: 700;
+  height: 200px;
+  padding-top: 100px;
 }

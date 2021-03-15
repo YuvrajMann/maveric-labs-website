@@ -3,7 +3,8 @@
     margin-top: 200px;
     width: 100%;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.027);
+    background-color: #343a40;
+
     height: 345px;
     color: black;
     border-top: 2px solid rgba(0, 0, 0, 0.185);
@@ -14,14 +15,14 @@
     font-size: 36px;
 }
 #copyright{
-    margin-top: 55px;
+    margin-top: 68px;
     text-align: center;
     justify-content: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.815);
     font-weight: 600;
     padding-left: 0px;
     margin-bottom: -20px;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: #212529;
 }
 
 .button{
@@ -36,8 +37,8 @@
     transition: all ease-in-out 0.2s;
 }
 .button:hover{
-    background-color: white;
-    color: rgba(0, 0, 0, 0.918);
+    background-color:rgba(0, 0, 0, 0.774);
+    color:white;
     box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 92%);
 }
 #footer_buttons{
@@ -53,8 +54,45 @@
 }
 .seprator{
     width: 2px;
-   height: 100%;
-    background-color: rgba(0, 0, 0, 0.432);
-    margin-top: -30px;
+    height: 100%;
+    top: 0px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.151);
+    /* margin-top: -30px; */
+   
  
+}
+#lab_name{
+    color: #ff3366;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+}
+#leftdas>div{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+}
+#leftdas>h1{
+    color: rgba(255, 255, 255, 0.568);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#rdsf h1{
+    color: rgba(255, 255, 255, 0.568);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#rdsf a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.658);
+}
+#rdsf a:hover{
+    color: white;
+}
+#rf h4{
+    color: rgba(255, 255, 255, 0.822);
+}
+#lab_name{
+    color: rgba(255, 255, 255, 0.671);
 }
