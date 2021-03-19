@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import history from "../../history";
 import HomeAbout from "../HomeAbout/HomeAbout";
+import Contact from "../Contact/Contact";
+
 class MainComponent extends Component {
   constructor(props) {
     super(props);
@@ -21,18 +23,8 @@ class MainComponent extends Component {
         <Route path="/home">
           <HomeAbout></HomeAbout>
         </Route>
-        <Route path="/about">
-          <h1>
-            {" "}
-            About Next.js Next.js is a popular and lightweight framework for
-            static and server‑rendered applications built with React. It
-            includes styling and routing solutions out of the box, and assumes
-            that you’re using Node.js as the server environment. Learn Next.js
-            from its official guide. Gatsby Gatsby is the best way to create
-            static websites with React. It lets you use React components, but
-            outputs pre-rendered HTML and CSS to guarantee the fastest load
-            time. Lea
-          </h1>
+        <Route path="/contact">
+          <Contact></Contact>
         </Route>
       </Switch>
     );

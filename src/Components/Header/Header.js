@@ -24,14 +24,16 @@ class Header extends Component {
                 Home
               </li>
             </NavLink>
-            <a href="#about_anchor">
+            <a href="/home#about_anchor">
               <li>About</li>
             </a>
             <li>Academics</li>
             <li>Facilities</li>
             <li>Team</li>
             <li>Research Projects</li>
-            <li>Contact Us</li>
+            <NavLink to="/contact">
+              <li>Contact Us</li>
+            </NavLink>
           </ul>
         </div>
       </div>

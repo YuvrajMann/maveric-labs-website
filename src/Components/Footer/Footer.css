@@ -1,11 +1,16 @@
 .main_footer{
     /* position: absolute; */
-    margin-top: 200px;
+    overflow-x: hidden;
+    overflow-y:auto ;
+   /* position: absolute; */
+    bottom: 0;
     width: 100%;
+    position: relative;
     bottom: 0;
     background-color: #343a40;
-
-    height: 345px;
+    margin-top: 40px;
+    min-height: 347px;
+    padding-bottom: 50px;
     color: black;
     border-top: 2px solid rgba(0, 0, 0, 0.185);
     padding-top: 30px;
@@ -15,13 +20,14 @@
     font-size: 36px;
 }
 #copyright{
-    margin-top: 68px;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    justify-content: center;
+    position: absolute;
     color: rgba(255, 255, 255, 0.815);
     font-weight: 600;
     padding-left: 0px;
-    margin-bottom: -20px;
+  
     background-color: #212529;
 }
 

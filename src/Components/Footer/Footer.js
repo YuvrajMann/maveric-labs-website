@@ -13,7 +13,7 @@ class Footer extends Component {
       <div className="main_footer">
         <Container>
           <Row>
-            <Col md={8}>
+            <Col sm={12} md={8}>
               <Container>
                 <Row>
                   <Col md={6} id="leftdas">
@@ -48,10 +48,14 @@ class Footer extends Component {
                 </Row>
               </Container>
             </Col>
-            <Col md={1} style={{ marginTop: "-30px", marginBottom: "-68px" }}>
+            <Col
+              md={1}
+              style={{ marginTop: "-30px", marginBottom: "-68px" }}
+              className="d-sm-none d-md-block"
+            >
               <div className="seprator"></div>
             </Col>
-            <Col md={3} id="rf">
+            <Col md={3} id="rf" className="d-sm-none d-md-block">
               <h4>LET THE WORLD KNOW ABOUT US AND ANOUT OUR WORLD.</h4>
               <h1 id="lab_name">Maveric Labs</h1>
               <div></div>
