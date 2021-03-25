@@ -1,0 +1,88 @@
+.facilities_wrapper {
+  min-height: 100vh;
+  padding-top: 50px;
+}
+.my_card_wrapper {
+  height: 480px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 17px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.123);
+  transition: all ease-in-out 0.1s;
+}
+.my_card_wrapper:hover {
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.164);
+}
+.check_logo {
+  text-align: center;
+}
+.my_card_wrapper:hover .check_logo {
+  display: none;
+  text-align: center;
+}
+.facility_card_content.small {
+  font-size: 16px;
+}
+.facility_card_content {
+  opacity: 0;
+  height: 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+
+  transition: all ease-in-out 0.3s;
+}
+.my_card_wrapper:hover .facility_card_content {
+  display: block;
+  opacity: 1;
+  height: 220px;
+  color: black;
+}
+.my_card_wrapper:hover .my_card_header {
+  transform: scale(0.7);
+  transition: transform 0.3s;
+}
+.my_card_header {
+  font-size: 33px;
+  text-align: center;
+  font-weight: 700;
+  color: #ff3366;
+}
+#facility_header {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ff3366;
+}
+.image_content {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.788);
+  backdrop-filter: blur(10px);
+  width: 240px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  left: 20px;
+  padding-top: 20px;
+}
+.image_content h3 {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+.image_content div {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+}

@@ -18,7 +18,13 @@ class Contact extends Component {
   render() {
     return (
       <Container className="contact_wapper">
-        <Row style={{ justifyContent: "left", marginBottom: "10px" }}>
+        <Row
+          style={{
+            justifyContent: "left",
+            marginBottom: "10px",
+            paddingTop: "40px",
+          }}
+        >
           <h1 className="contact_header">Contact Info</h1>
         </Row>
         <Row>

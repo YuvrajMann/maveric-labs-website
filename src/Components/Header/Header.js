@@ -28,7 +28,9 @@ class Header extends Component {
               <li>About</li>
             </a>
             <li>Academics</li>
-            <li>Facilities</li>
+            <NavLink to="/facilities">
+              <li>Facilities</li>
+            </NavLink>
             <li>Team</li>
             <li>Research Projects</li>
             <NavLink to="/contact">
