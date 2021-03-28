@@ -42,7 +42,7 @@ class App extends Component {
     console.log(this.state.activeMember);
     return (
       <Router history={history}>
-        <div className="App">
+        <div className="app">
           <Header scrollDown={this.state.scrollDown} history={history}></Header>
           <div
             className={!this.state.scrollDown ? "content_margin" : "content"}

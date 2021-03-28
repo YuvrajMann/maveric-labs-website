@@ -1,21 +1,75 @@
 import React, { Component } from "react";
 import mavericLogo from "../../assests/mavericLabsLogo.png";
+import sidebarIcon from "../../assests/sidebarIcon.jpg";
+import crossIcon from "../../assests/times-solid.svg";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 
 class Header extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      isDrawerActive: false,
+    };
   }
   render() {
     return (
       <div
-        className={this.props.scrollDown ? "main_header" : "main_header_stiky"}
+        className={
+          this.props.scrollDown
+            ? this.state.isDrawerActive
+              ? "main_header active"
+              : "main_header"
+            : this.state.isDrawerActive
+            ? "main_header_stiky active"
+            : "main_header_stiky"
+        }
       >
-        <div className="left_content">
+        <div
+          className={
+            this.state.isDrawerActive ? "left_content active" : "left_content"
+          }
+        >
           <img src={mavericLogo} width={70}></img>
         </div>
-        <div className="right_content">
+        <div
+          className={
+            this.state.isDrawerActive ? "snack_bar active" : "snack_bar"
+          }
+          onClick={() => {
+            document.body.style.overflow = "hidden";
+            this.setState({
+              ...this.state,
+              isDrawerActive: true,
+            });
+          }}
+        >
+          <div class="stick"></div>
+          <div class="stick"></div>
+          <div class="stick"></div>
+        </div>
+        <div
+          className={
+            this.state.isDrawerActive ? "right_content active" : "right_content"
+          }
+        >
+          <div
+            className="cross_icon"
+            onClick={() => {
+              document.body.style.overflow = "scroll";
+              this.setState({
+                ...this.state,
+                isDrawerActive: false,
+              });
+            }}
+          >
+            <img
+              style={{
+                width: "40px",
+              }}
+              src={crossIcon}
+            ></img>
+          </div>
           <ul>
             <NavLink to="/home">
               <li

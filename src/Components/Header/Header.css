@@ -56,3 +56,72 @@
   color: #ff3366;
   border-bottom: 2px solid rgba(0, 0, 0, 0.096);
 }
+@media screen and (min-width: 950px) {
+  .snack_bar {
+    display: none;
+  }
+  .cross_icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* * {
+    overflow: hidden;
+  } */
+
+  .cross_icon {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+  }
+  .main_header.active {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 0px;
+  }
+  .main_header_stiky.active {
+    height: 100vh;
+    padding: 0px;
+    overflow-y: scroll;
+  }
+  .left_content.active {
+    display: none;
+  }
+  .snack_bar.active {
+    display: none;
+  }
+  .right_content {
+    display: none;
+  }
+  .right_content.active {
+    overflow-y: scroll;
+    display: block;
+    z-index: 10;
+    width: 100%;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.493);
+    position: fixed;
+    height: 100%;
+  }
+  .right_content.active ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    font-size: 40px;
+  }
+}
+.stick {
+  height: 5px;
+  width: 35px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 2px;
+}
+.snack_bar {
+  margin-right: 30px;
+  cursor: pointer;
+}
