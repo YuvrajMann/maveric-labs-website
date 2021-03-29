@@ -56,7 +56,7 @@ class Header extends Component {
           <div
             className="cross_icon"
             onClick={() => {
-              document.body.style.overflow = "scroll";
+              document.body.style.overflowY = "scroll";
               this.setState({
                 ...this.state,
                 isDrawerActive: false,
@@ -71,23 +71,71 @@ class Header extends Component {
             ></img>
           </div>
           <ul>
-            <NavLink to="/home">
+            <NavLink
+              to="/home"
+              onClick={() => {
+                document.body.style.overflowY = "scroll";
+                this.setState({
+                  ...this.state,
+                  isDrawerActive: false,
+                });
+              }}
+            >
               <li
                 className={window.location.pathname == "/home" ? "active" : ""}
               >
                 Home
               </li>
             </NavLink>
-            <a href="/home#about_anchor">
+            <a
+              href="/home#about_anchor"
+              onClick={() => {
+                document.body.style.overflowY = "scroll";
+                this.setState({
+                  ...this.state,
+                  isDrawerActive: false,
+                });
+              }}
+            >
               <li>About</li>
             </a>
             <li>Academics</li>
-            <NavLink to="/facilities">
+            <NavLink
+              to="/facilities"
+              onClick={() => {
+                document.body.style.overflowY = "scroll";
+                this.setState({
+                  ...this.state,
+                  isDrawerActive: false,
+                });
+              }}
+            >
               <li>Facilities</li>
             </NavLink>
             <li>Team</li>
-            <li>Research Projects</li>
-            <NavLink to="/contact">
+            <NavLink
+              to="/researchWork"
+              onClick={() => {
+                document.body.style.overflowY = "scroll";
+                this.setState({
+                  ...this.state,
+                  isDrawerActive: false,
+                });
+              }}
+            >
+              <li>Research Projects</li>
+            </NavLink>
+
+            <NavLink
+              to="/contact"
+              onClick={() => {
+                document.body.style.overflowY = "scroll";
+                this.setState({
+                  ...this.state,
+                  isDrawerActive: false,
+                });
+              }}
+            >
               <li>Contact Us</li>
             </NavLink>
           </ul>

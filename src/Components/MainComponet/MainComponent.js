@@ -11,6 +11,7 @@ import history from "../../history";
 import HomeAbout from "../HomeAbout/HomeAbout";
 import Contact from "../Contact/Contact";
 import Facilities from "../Facilities/Facilities.js";
+import Research from "../Research/Research.js";
 
 class MainComponent extends Component {
   constructor(props) {
@@ -29,6 +30,9 @@ class MainComponent extends Component {
         </Route>
         <Route path="/facilities">
           <Facilities></Facilities>
+        </Route>
+        <Route path="/researchWork">
+          <Research></Research>
         </Route>
       </Switch>
     );
