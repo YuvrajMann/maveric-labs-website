@@ -1,0 +1,48 @@
+.card_wrap_profile {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.11);
+  margin-bottom: 30px;
+}
+.card_wrap_profile > img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+.card_wrap_profile:hover > img {
+  filter: grayscale(0%);
+}
+.prof_name {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.76);
+}
+.prof_linkedIn {
+  cursor: pointer;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.prof_position {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.637);
+}
+#faculty_header_1 {
+  margin-top: 20px;
+  text-align: center;
+}
+#faculty_header_1 h2 {
+  font-size: 40px;
+  color: #ff3366;
+  font-weight: 700;
+}
+#faculty_header_2 {
+  text-align: center;
+}
+#faculty_header_2 h4 {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.692);
+}

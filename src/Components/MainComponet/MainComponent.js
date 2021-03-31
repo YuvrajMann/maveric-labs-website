@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import history from "../../history";
 import HomeAbout from "../HomeAbout/HomeAbout";
+import Faculty from "../Faculty/Faculty.js";
 import Contact from "../Contact/Contact";
 import Facilities from "../Facilities/Facilities.js";
 import Research from "../Research/Research.js";
@@ -30,6 +31,9 @@ class MainComponent extends Component {
         </Route>
         <Route path="/facilities">
           <Facilities></Facilities>
+        </Route>
+        <Route path="/faculty">
+          <Faculty></Faculty>
         </Route>
         <Route path="/researchWork">
           <Research></Research>

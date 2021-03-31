@@ -112,7 +112,18 @@ class Header extends Component {
             >
               <li>Facilities</li>
             </NavLink>
-            <li>Team</li>
+            <NavLink
+              to="/faculty"
+              onClick={() => {
+                document.body.style.overflowY = "scroll";
+                this.setState({
+                  ...this.state,
+                  isDrawerActive: false,
+                });
+              }}
+            >
+              <li>Team</li>
+            </NavLink>
             <NavLink
               to="/researchWork"
               onClick={() => {

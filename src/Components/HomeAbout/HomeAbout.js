@@ -13,10 +13,10 @@ class HomeAbout extends Component {
       <>
         <Container className="home_wapper">
           <Row
+            className="home_row"
             style={{
               height: "100vh",
               alignItems: "center",
-              marginTop: "-40px",
               alignContent: "center",
             }}
             className="row justify-content-around row justify-content-center"
