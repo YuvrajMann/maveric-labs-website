@@ -100,7 +100,16 @@ class Header extends Component {
             >
               <li>About</li>
             </HashLink>
-            <NavLink to="/academics">
+            <NavLink
+              to="/academics"
+              onClick={() => {
+                document.body.style.overflowY = "scroll";
+                this.setState({
+                  ...this.state,
+                  isDrawerActive: false,
+                });
+              }}
+            >
               <li>Academics</li>
             </NavLink>
             <NavLink

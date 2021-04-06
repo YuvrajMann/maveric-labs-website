@@ -68,7 +68,7 @@
 }
 #lab_name {
   color: #ff3366;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 55px;
 }
@@ -99,4 +99,55 @@
 }
 #lab_name {
   color: black;
+}
+#footer_buttons {
+  justify-content: center;
+}
+@media screen and (max-width: 765px) {
+  #rdsf {
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+  #leftdas {
+    text-align: center;
+  }
+  div.social_links.small_scr {
+    display: block;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+div.small_scr {
+  display: none;
+}
+.social_links {
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social_links a {
+  border-radius: 50%;
+  border: 0px solid black;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  background-color: #f3f4f6;
+  font-size: 25px;
+  cursor: pointer;
+}
+.social_links a:nth-child(1):hover svg {
+  color: blue;
+}
+.social_links a:nth-child(2):hover svg {
+  color: red;
+}
+.social_links a:nth-child(3):hover svg {
+  color: #00acee;
+}
+.social_links a:nth-child(4):hover svg {
+  color: #fca439;
 }
