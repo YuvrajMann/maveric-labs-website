@@ -1,6 +1,14 @@
 .facilities_wrapper {
   min-height: 100vh;
-  padding-top: 50px;
+}
+.facilty_header_wrapper div {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.733);
+}
+.facilty_header_wrapper h1 {
+  font-size: 60px;
+  color: #ff3366;
 }
 .my_card_wrapper {
   height: 480px;
@@ -12,6 +20,7 @@
   justify-content: space-evenly;
   margin-bottom: 20px;
   padding: 25px;
+  margin-top: 50px;
   border-radius: 17px;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.123);
   transition: all ease-in-out 0.1s;
@@ -34,15 +43,14 @@
   height: 0px;
   text-align: center;
   font-size: 18px;
-  font-weight: 600;
 
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.2s;
 }
 .my_card_wrapper:hover .facility_card_content {
   display: block;
   opacity: 1;
   height: 220px;
-  color: black;
+  color: rgba(0, 0, 0, 0.726);
 }
 .my_card_wrapper:hover .my_card_header {
   transform: scale(0.7);
@@ -52,7 +60,7 @@
   font-size: 33px;
   text-align: center;
   font-weight: 700;
-  color: #ff3366;
+  color: rgba(0, 0, 0, 0.74);
 }
 #facility_header {
   text-align: center;
@@ -66,7 +74,7 @@
 .image_content {
   position: absolute;
   color: rgba(255, 255, 255, 0.788);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   width: 240px;
   margin-top: 20px;
   border-radius: 20px;

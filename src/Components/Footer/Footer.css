@@ -1,104 +1,102 @@
-.main_footer{
-    /* position: absolute; */
-    overflow-x: hidden;
-    overflow-y:auto ;
-   /* position: absolute; */
-    bottom: 0;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    background-color: #343a40;
-    margin-top: 40px;
-    min-height: 347px;
-    padding-bottom: 50px;
-    color: black;
-    border-top: 2px solid rgba(0, 0, 0, 0.185);
-    padding-top: 30px;
+.main_footer {
+  /* position: absolute; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: white;
+  margin-top: 40px;
+  min-height: 347px;
+  padding-bottom: 50px;
+  color: black;
+
+  padding-top: 30px;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.219);
 }
-.main_footer h1{
-    font-weight: 600;
-    font-size: 36px;
+.main_footer h1 {
+  font-weight: 600;
+  font-size: 36px;
 }
-#copyright{
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    color: rgba(255, 255, 255, 0.815);
-    font-weight: 600;
-    padding-left: 0px;
-  
-    background-color: #212529;
+#copyright {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.644);
+  font-weight: 600;
+  padding-left: 0px;
+
+  background-color: #f3f4f6;
 }
 
-.button{
-    background-color: rgba(0, 0, 0, 0.918);
-    margin-left: 14px;
-    text-align: center;
-    padding:10px;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 10px;
-    color: white;
-    transition: all ease-in-out 0.2s;
+.button {
+  background-color: #f3f4f6;
+  margin-left: 14px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  color: black;
+  transition: all ease-in-out 0.2s;
 }
-.button:hover{
-    background-color:rgba(0, 0, 0, 0.774);
-    color:white;
-    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 92%);
+.button:hover {
+  background-color: #989bf4;
+  color: white;
+  box-shadow: 0px 0px 3px 1px #f3f4f6;
 }
-#footer_buttons{
-    margin-top: 30px;
-   
+#footer_buttons {
+  margin-top: 30px;
 }
-#footer_links{
-    display: flex;
-    flex-direction: column;
+#footer_links {
+  display: flex;
+  flex-direction: column;
 }
-#footer_links a{
-    margin-top: 8px;
+#footer_links a {
+  margin-top: 8px;
 }
-.seprator{
-    width: 2px;
-    height: 100%;
-    top: 0px;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.151);
-    /* margin-top: -30px; */
-   
- 
+.seprator {
+  width: 2px;
+  height: 100%;
+  top: 0px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.151);
+  /* margin-top: -30px; */
 }
-#lab_name{
-    color: #ff3366;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 55px;
+#lab_name {
+  color: #ff3366;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
 }
-#leftdas>div{
-    color: rgb(255, 255, 255);
-    font-size: 17px;
-    font-weight: 500;
+#leftdas > div {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
 }
-#leftdas>h1{
-    color: rgba(255, 255, 255, 0.568);
-    text-transform: uppercase;
-    font-size: 20px;
+#leftdas > h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
 }
-#rdsf h1{
-    color: rgba(255, 255, 255, 0.568);
-    text-transform: uppercase;
-    font-size: 20px;
+#rdsf h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
 }
-#rdsf a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.658);
+#rdsf a {
+  text-decoration: none;
+  color: black;
 }
-#rdsf a:hover{
-    color: white;
+#rdsf a:hover {
+  color: black;
 }
-#rf h4{
-    color: rgba(255, 255, 255, 0.822);
+#rf h4 {
+  color: black;
 }
-#lab_name{
-    color: rgba(255, 255, 255, 0.671);
+#lab_name {
+  color: black;
 }

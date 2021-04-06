@@ -116,7 +116,11 @@ class Contact extends Component {
                 />
               </FormGroup>
               <Button
-                style={{ marginTop: "20px" }}
+                style={{
+                  marginTop: "20px",
+                  background: "#989bf4",
+                  borderColor: "#989bf4",
+                }}
                 type="submit"
                 name="submit"
                 id="exampleText"

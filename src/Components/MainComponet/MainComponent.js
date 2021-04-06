@@ -13,6 +13,7 @@ import Faculty from "../Faculty/Faculty.js";
 import Contact from "../Contact/Contact";
 import Facilities from "../Facilities/Facilities.js";
 import Research from "../Research/Research.js";
+import Academics from "../Academic/Academics.js";
 
 class MainComponent extends Component {
   constructor(props) {
@@ -37,6 +38,9 @@ class MainComponent extends Component {
         </Route>
         <Route path="/researchWork">
           <Research></Research>
+        </Route>
+        <Route path="/academics">
+          <Academics></Academics>
         </Route>
       </Switch>
     );

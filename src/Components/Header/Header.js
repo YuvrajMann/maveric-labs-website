@@ -4,6 +4,7 @@ import sidebarIcon from "../../assests/sidebarIcon.jpg";
 import crossIcon from "../../assests/times-solid.svg";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
+import { HashLink } from "react-router-hash-link";
 
 class Header extends Component {
   constructor(props) {
@@ -87,8 +88,8 @@ class Header extends Component {
                 Home
               </li>
             </NavLink>
-            <a
-              href="/home#about_anchor"
+            <HashLink
+              to="/home#about_anchor"
               onClick={() => {
                 document.body.style.overflowY = "scroll";
                 this.setState({
@@ -98,8 +99,10 @@ class Header extends Component {
               }}
             >
               <li>About</li>
-            </a>
-            <li>Academics</li>
+            </HashLink>
+            <NavLink to="/academics">
+              <li>Academics</li>
+            </NavLink>
             <NavLink
               to="/facilities"
               onClick={() => {

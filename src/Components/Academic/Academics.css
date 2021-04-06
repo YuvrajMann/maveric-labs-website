@@ -1,0 +1,15 @@
+.header_row {
+  text-align: center;
+  padding-top: 60px;
+}
+.academic_header h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ff3366;
+}
+.sec_header {
+  font-size: 25px;
+  padding-top: 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.801);
+}
