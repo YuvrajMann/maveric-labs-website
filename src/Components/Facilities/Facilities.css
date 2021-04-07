@@ -94,3 +94,26 @@
   font-weight: 600;
   line-height: 25px;
 }
+.top_line {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.decription_text {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.stats {
+  display: flex;
+}
+.data_display {
+  margin-bottom: 30px;
+}
+.data_display div:nth-child(1) {
+  font-size: 29px;
+  font-weight: 600;
+}
+.data_display div:nth-child(2) {
+  padding-top: 5px;
+  font-size: 16px;
+}

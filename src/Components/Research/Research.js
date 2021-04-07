@@ -31,6 +31,7 @@ const ResearchCard = (props) => {
                 <div>
                   <span>Read More</span>
                   <svg
+                    style={{ width: "25px" }}
                     class="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

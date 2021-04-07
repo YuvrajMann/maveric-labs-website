@@ -91,56 +91,49 @@ class Facilities extends Component {
               </div>
             </Col>
           </Row>
-
-          <section class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap">
-              <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
-                <div class="w-full sm:p-4 px-4 mb-6">
-                  <h1 class="title-font font-medium text-xl mb-2 text-gray-900">
-                    MAIVRIK Lab in action
-                  </h1>
-                  <div class="leading-relaxed">
-                    Detection and Robotics teams working in their respective
-                    groups. All the necessary open source and proprietary
-                    software is available on individual workstation. The
-                    dedicated server and workstation hardware is assembled in
-                    the server room adjoining the lab.
-                  </div>
-                </div>
-                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                  <h2 class="title-font font-medium text-3xl text-gray-900">
-                    100+
-                  </h2>
-                  <p class="leading-relaxed">Students</p>
-                </div>
-                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                  <h2 class="title-font font-medium text-3xl text-gray-900">
-                    10
-                  </h2>
-                  <p class="leading-relaxed">Computers</p>
-                </div>
-                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                  <h2 class="title-font font-medium text-3xl text-gray-900">
-                    35
-                  </h2>
-                  <p class="leading-relaxed">Research Papers</p>
-                </div>
-                <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
-                  <h2 class="title-font font-medium text-3xl text-gray-900">
-                    4
-                  </h2>
-                  <p class="leading-relaxed">Awards</p>
-                </div>
+          <Row style={{ marginTop: "70px", marginBottom: "50px" }}>
+            <Col md={6}>
+              <div className="top_line">MAIVRIK Lab in action</div>
+              <div className="decription_text">
+                Detection and Robotics teams working in their respective groups.
+                All the necessary open source and proprietary software is
+                available on individual workstation. The dedicated server and
+                workstation hardware is assembled in the server room adjoining
+                the lab.
               </div>
-              <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                <img
-                  class="object-cover object-center w-full h-full"
-                  src={facilty}
-                  alt="stats"
-                />
-              </div>
-            </div>
-          </section>
+              <Container className="stats">
+                <Row style={{ width: "100%" }}>
+                  <Col md={3} sm={6} className="data_display">
+                    <div>100+</div>
+                    <div>Students</div>
+                  </Col>
+                  <Col md={3} sm={6} className="data_display">
+                    <div>10</div>
+                    <div>Computers</div>
+                  </Col>
+                  <Col md={3} sm={6} className="data_display">
+                    <div>4</div>
+                    <div>Awards</div>
+                  </Col>
+                  <Col md={3} sm={6} className="data_display">
+                    <div>35</div>
+                    <div>Research Papers</div>
+                  </Col>
+                </Row>
+              </Container>
+            </Col>
+            <Col md={6}>
+              <img
+                src={facilty}
+                className="img-fluid"
+                style={{
+                  borderRadius: "5px",
+                  minHeight: "300px",
+                  minWidth: "300px",
+                }}
+              ></img>
+            </Col>
+          </Row>
         </Container>
       </>
     );

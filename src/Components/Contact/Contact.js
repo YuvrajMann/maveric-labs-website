@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import "./Contact.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-library.add(faFacebookF);
+
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 class Contact extends Component {
