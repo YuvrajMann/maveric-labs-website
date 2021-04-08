@@ -50,14 +50,14 @@ class Faculty extends Component {
             <FacultyCard
               name="Harish Kumar"
               position="Professor"
-              image="http://uiet.puchd.ac.in/maivriklabs/assets/images/harish-2-1450x1450.jpg"
+              image="https://i.ibb.co/FbbMqhx/harish-2-1450x1450.jpg"
             ></FacultyCard>
           </Col>
           <Col md={4}>
             <FacultyCard
               name="Akashdeep"
               position="Assistant Professor"
-              image="http://uiet.puchd.ac.in/maivriklabs/assets/images/akash-958x958.jpg"
+              image="https://i.ibb.co/FqJ6JVG/akash-958x958.jpg"
             ></FacultyCard>
           </Col>
         </Row>
@@ -66,21 +66,23 @@ class Faculty extends Component {
             <FacultyCard
               name="Sarbjeet Singh"
               position="Professor"
-              image="http://uiet.puchd.ac.in/maivriklabs/assets/images/sarbjeet-singh-400x400.jpg"
+              image="https://i.ibb.co/D7CVQM0/sarbjeet-singh-400x400.png"
             ></FacultyCard>
           </Col>
           <Col md={4}>
             <FacultyCard
               name="Sakshi Kaushal"
               position="Assistant Professor"
-              image="http://uiet.puchd.ac.in/maivriklabs/assets/images/photo-sakshi-600x781.jpg"
+              image="https://i.ibb.co/JKrZxTg/photo-sakshi-600x781.jpg"
+              alt="photo-sakshi-600x781"
             ></FacultyCard>
           </Col>
           <Col md={4}>
             <FacultyCard
               name="Manisha Kaushal"
               position="Assistant Professor"
-              image="http://uiet.puchd.ac.in/maivriklabs/assets/images/scan0014-250x323.jpg"
+              image="https://i.ibb.co/D7H6w7S/scan0014-250x323.jpg"
+              alt="scan0014-250x323"
             ></FacultyCard>
           </Col>
         </Row>
